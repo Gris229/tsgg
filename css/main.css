@@ -1,11 +1,27 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
 
-.text-col{
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.aboutus-hero
+.text-col
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+.mission-hero
     {
         background : linear-gradient(to bottom, #d1f1fc64, white 100%) 
     }
+.aboutus-hero
+    {
+        background : linear-gradient(to top, #d1f1fc64, white 100%) 
+    }
+
+.banner3{
+    margin-top : -160px;
+   
+}
+@media screen and (max-width:768px)
+{
+   .banner3{
+    margin-top: 0
+   }
+};
