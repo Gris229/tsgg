@@ -25,3 +25,11 @@
     margin-top: 0
    }
 };
+
+/*@media screen and (min-width:769px)
+    {
+        .about-banner{
+            margin-top: 100px;
+        }
+    };
+*/
